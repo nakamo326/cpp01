@@ -7,9 +7,13 @@ int main(void) {
   Zombie a(std::string("Shaun"));
   Zombie* p;
 
-  a.announce();
   p = newZombie(std::string("Ed"));
   randomChump(std::string("Liz"));
+
+  a.announce();
+  p->announce();
+
+  delete p;
 
   return 0;
 }

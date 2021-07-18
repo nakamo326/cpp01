@@ -3,6 +3,7 @@ CFLAGS = -Wall -Wextra -Werror
 INCLUDE = ./
 
 SRC =	./main.cpp \
+		./zombie.cpp \
 		./newZombie.cpp \
 		./randomChump.cpp
 
