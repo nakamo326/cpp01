@@ -1,19 +1,18 @@
-#include "zombie.hpp"
+#include "Zombie.hpp"
 
-Zombie* newZombie(std::string name);
-void randomChump(std::string name);
+Zombie* zombieHorde(int N, std::string name);
 
 int main(void) {
-  Zombie a(std::string("Shaun"));
-  Zombie* p;
+  Zombie* h;
+  int n = 5;
 
-  p = newZombie(std::string("Ed"));
-  randomChump(std::string("Liz"));
+  h = zombieHorde(n, std::string("John"));
 
-  a.announce();
-  p->announce();
+  for (int i = 0; i < n; i++) {
+    h[i].announce();
+  }
 
-  delete p;
+  delete[] h;
 
   return 0;
 }
