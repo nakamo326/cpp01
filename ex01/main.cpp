@@ -6,7 +6,7 @@ int main(void) {
   Zombie* h;
   int n = 5;
 
-  h = zombieHorde(n, std::string("John"));
+  h = zombieHorde(n, "John");
 
   for (int i = 0; i < n; i++) {
     h[i].announce();

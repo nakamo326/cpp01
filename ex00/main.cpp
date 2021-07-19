@@ -4,11 +4,11 @@ Zombie* newZombie(std::string name);
 void randomChump(std::string name);
 
 int main(void) {
-  Zombie a(std::string("Shaun"));
+  Zombie a("Shaun");
   Zombie* p;
 
-  p = newZombie(std::string("Ed"));
-  randomChump(std::string("Liz"));
+  p = newZombie("Ed");
+  randomChump("Liz");
 
   a.announce();
   p->announce();
