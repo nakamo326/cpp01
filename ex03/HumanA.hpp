@@ -6,11 +6,11 @@
 #include "Weapon.hpp"
 
 class HumanA {
- private:
+  private:
   std::string _name;
   Weapon &_weapon;
 
- public:
+  public:
   HumanA(std::string name, Weapon weapon);
   ~HumanA();
   void attack();

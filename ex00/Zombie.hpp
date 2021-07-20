@@ -4,10 +4,10 @@
 #include <iostream>
 
 class Zombie {
- private:
+  private:
   std::string name;
 
- public:
+  public:
   Zombie(std::string name);
   ~Zombie();
   void announce(void);
