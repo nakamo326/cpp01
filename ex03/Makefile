@@ -4,7 +4,8 @@ INCLUDE = ./
 
 SRC =	./main.cpp \
 		./Weapon.cpp \
-		./HumanA.cpp
+		./HumanA.cpp \
+		./HumanB.cpp
 
 OBJ = $(SRC:.cpp=.o)
 
