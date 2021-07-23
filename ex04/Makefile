@@ -2,7 +2,8 @@ NAME = replace
 CFLAGS = -Wall -Wextra -Werror
 INCLUDE = ./
 
-SRC =	./main.cpp 
+SRC =	./main.cpp \
+			./sed.cpp
 
 OBJ = $(SRC:.cpp=.o)
 
