@@ -1,9 +1,10 @@
 #include "Karen.hpp"
 
-int main(int argc, char const *argv[]) {
+int main(void) {
   Karen karen;
-  if (argc != 2)
-    return 1;
-  karen.complain(std::string(argv[1]));
+  karen.complain("DEBUG");
+  karen.complain("INFO");
+  karen.complain("WARNING");
+  karen.complain("ERROR");
   return 0;
 }

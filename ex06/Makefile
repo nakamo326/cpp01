@@ -1,4 +1,4 @@
-NAME = karen
+NAME = karenFilter
 CFLAGS = -Wall -Wextra -Werror
 INCLUDE = ./
 
